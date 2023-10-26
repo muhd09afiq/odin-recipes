@@ -34,18 +34,19 @@ hr {
   margin-left: auto;
   margin-right: auto;
   background-color: #028482;
+  padding:25px;
 }
 
 a {
   color: black;
 }
 
-a :hover{
+a:hover{
   color: antiquewhite;
 }
 
-a :visited {
-  color: brown;
+a:visited {
+  color: rgb(216, 228, 35);
 }
 
 a:active{
@@ -53,10 +54,31 @@ a:active{
 }
 
 cite {
-  display: block;
-  text-align: right;
   width: 60%;
+  text-align: right;
+  color: antiquewhite;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+cite a{
   color: antiquewhite;
+}
+
+section {
+  padding: 20px;
+
+}
+
+section ul{
+  list-style: none;
+  padding-left: 25px;
+}
+
+header img{
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ padding-bottom: 20px;
 }
